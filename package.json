@@ -1,0 +1,48 @@
+{
+  "name": "tiny-json-request",
+  "version": "0.0.1",
+  "description": "A tiny library for request.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shiroadster/tiny-json-request.git"
+  },
+  "keywords": [
+    "json",
+    "request",
+    "minimalist"
+  ],
+  "author": "shiroadster",
+  "license": "MIT",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "noop6": "^1.0.6",
+    "tinyreq": "^3.0.1",
+    "ul": "^5.0.0"
+  },
+  "devDependencies": {
+    "lien": "^1.0.1",
+    "mocha": "^2.2.5"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ]
+}
